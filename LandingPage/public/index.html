@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app lang="es">
 <head>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="pragma" content="no-cache"> 
+    <meta charset="utf-8" /> 
 
 
 	<title>CiSeVi</title>
@@ -36,24 +37,25 @@
 			                <a href="registro.html">Registro</a>
 			            </li>
 			            <li>
-			                <a href="#">Cine</a>
+			                <a href="mantenimiento.html">Cine</a>
 			            </li>
 			            <li>
-			                <a href="#">Series</a>
+			                <a href="mantenimiento.html">Series</a>
 			            </li>
 			            <li>
-			            	<a href="#">Videojuegos</a>
+			            	<a href="mantenimiento.html">Videojuegos</a>
 			            </li>
 			            <li>
-			            	<a href="#">Compra y Venta</a>
+			            	<a href="mantenimiento.html">Compra y Venta</a>
 			            </li>
 			            <li>
 					        <form class="navbar-form" role="search">
 					        	<div class="input-group">
-					            	<input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+					            	<label for="searchTerm"><input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
 					            	<div class="input-group-btn">
 			    						<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
 									</div>
+                                    </label>
 								</div>
 							</form>
 			            </li>
@@ -65,14 +67,14 @@
 
 	<div class="row text-center" id="encabezado">
 		<div class="col-md-3">
-			<img src="images/fondo-cine.jpg" height="300" width="300">
+			<img src="images/fondo-cine.jpg" alt="Fondo de cine" height="300" width="300">
 		</div>
 		<div class="col-md-6">
 			<p id="titulo">CiSeVi</p>
 			<p id="subtitulo">Cine, Series y Videojuegos</p>
 		</div>
 		<div class="col-md-3">
-			<img src="images/game start.jpg" height="300" width="300">
+			<img src="images/game start.jpg" alt="Game over" height="300" width="300">
 		</div>
 		
 	</div>
@@ -95,14 +97,14 @@
     	</div>
     	<div class="col-md-4">
 				<h2>Película destacada</h2>
-				<a href="fichaAC.html"><img src="images/AC.jpg" height="300" width="300"></a>
+				<a href="fichaAC.html"><img src="images/AC.jpg" alt="Assassins creed" height="300" width="300"></a>
     	</div>
     </div>
     
     <div class="row">
     	<div class="col-md-12">
     		<div class="video">
-				<iframe  src="https://www.youtube.com/embed/uNOnq5YaNxg" frameborder="0" allowfullscreen></iframe>
+				<iframe title="assassins creed" src="https://www.youtube.com/embed/uNOnq5YaNxg" frameborder="0" allowfullscreen></iframe>
 			</div>
     	</div>
     </div>
@@ -121,13 +123,13 @@
     	</div>
     	<div class="col-md-4">
     		<h2>Serie destacada</h2>
-    		<a href="#"><img src="images/GOT.jpg" height="300" width="300"></a>
+    		<a href="#"><img src="images/GOT.jpg" alt="Juego de tronos" height="300" width="300"></a>
     	</div>
     </div>
      <div class="row">
     	<div class=" col-md-12">
     		<div class="video">
-				<iframe  src="https://www.youtube.com/embed/l8tUY14C5cE" frameborder="0" ></iframe>
+				<iframe  title="juego de tronos" src="https://www.youtube.com/embed/l8tUY14C5cE" frameborder="0" ></iframe>
 			</div>
     	</div>
     </div>
@@ -146,13 +148,13 @@
     	</div>
     	<div class="col-md-4">
     		<h2>Videojuego destacado</h2>
-    		<a href="#"><img src="images/SWB.jpg" height="300" width="300"></a>
+    		<a href="#"><img src="images/SWB.jpg" alt=" Star Wars Battlefront" height="300" width="300"></a>
     	</div>
     </div>
 	<div class="row">
     	<div class=" col-md-12">
     		<div class="video">
-				<iframe  src="https://www.youtube.com/embed/-S8jWacP-z8" frameborder="0" ></iframe>
+				<iframe title="Star Wars Battlefront" src="https://www.youtube.com/embed/-S8jWacP-z8" frameborder="0" ></iframe>
 			</div>
     	</div>
     </div>
@@ -169,22 +171,22 @@
 
     <div class="row text-center" id="breve-resumen">
         <div class="col-md-3">
-        	<a href="#"><img src="images/clapperboard.png"></a>
+        	<a href="mantenimiento.html"><img src="images/clapperboard.png" alt="Foto cine"></a>
             <h4>Cine</h4>
             <p>Estate al tanto de las últimas noticias de cine y comenta tus pelis favoritas</p>
         </div>
         <div class="col-md-3">
-        	<a href="#"><img src="images/computer.png"></a>
+        	<a href="mantenimiento.html"><img src="images/computer.png" alt="Foto series"></a>
             <h4>Series</h4>
             <p>Estate al tanto de las últimas noticias de series y comenta tus series favoritas</p>
         </div>
         <div class="col-md-3">
-        	<a href=""><img src="images/gamepad.png"></a>
+        	<a href="mantenimiento.html"><img src="images/gamepad.png" alt="Foto videojuegos"></a>
             <h4>Videojuegos</h4>
             <p>Estate al tanto de las últimas noticias sobre videojuegos y comenta tus videojuegos favoritos</p>
         </div>
         <div class="col-md-3">
-        	<a href=""><img src="images/money-bag.png"></a>
+        	<a href="mantenimiento.htmls"><img src="images/money-bag.png" alt="Foto compra y venta"></a>
             <h4>Compra y venta</h4>
             <p>Compra y vende películas, series y videojuegos aquí</p>
         </div>
@@ -193,12 +195,12 @@
 	<footer>
 		<div class="row text-center" id="footer">
 			<div class="col-md-6">
-				<a href="https://github.com/alu0100767803/Practica4-Lanzamiento-y-Usabilidad" target="_blank"><img src="images/github-logo.png"></img></a>
+				<a href="https://github.com/alu0100767803/Practica4-Lanzamiento-y-Usabilidad" target="_blank"><img src="images/github-logo.png" alt="Github"></img></a>
 			</div>
 			<div class="col-md-6">
 				Imagenes obtenidas de:
-				<a href="http://www.freepik.es" target="_blank"><img src="images/freepik-logo.png"></img></a>
-      			<a href="http://www.flaticon.com/" target="_blank"><img src="https://media.freepik.com/flaticon/img/flaticon-logo.svg" title="Flaticon logo" width="100" height="32"></a>
+				<a href="http://www.freepik.es" target="_blank"><img src="images/freepik-logo.png" alt="Freepik"></img></a>
+      			<a href="http://www.flaticon.com/" target="_blank"><img src="https://media.freepik.com/flaticon/img/flaticon-logo.svg" alt="Flaticon" title="Flaticon logo" width="100" height="32"></a>
 			</div> 
 			
 		</div>
@@ -206,5 +208,15 @@
 
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>   				
 	
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-89293136-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
 </body>
 </html>
