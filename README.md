@@ -21,7 +21,11 @@ Correo: alu0100767803@ull.edu.es
 * Express
 * Firebase
 * Google Analytics
+* Google Trends
 * Hosting: miarroba.es
+* Dominio: freenom.com
+* Corrección de errores: tawdis.net
+
 
 ## Descripción
 Crear una Landing Page sencilla para el proyecto del curso
